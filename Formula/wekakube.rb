@@ -6,12 +6,12 @@ class Wekakube < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/weka/wekakube/releases/download/v1.0.1/wekakube_1.0.1_darwin_arm64.tar.gz"
-      sha256 "4fa281e4bd2a649a6b64400cde7773c6c2b18b3e490482f140d526abd648eba3"
+      url "https://github.com/weka/homebrew-wekakube/releases/download/v1.0.1/wekakube_1.0.1_darwin_arm64.tar.gz"
+      sha256 "97af4cdb8443221b31fd89b47b35e415304d2e19eab53f13be4c60e63408c94b"
     end
     on_intel do
-      url "https://github.com/weka/wekakube/releases/download/v1.0.1/wekakube_1.0.1_darwin_amd64.tar.gz"
-      sha256 "267db765797a448d7bcabda4606de05dd5aeb8503b496739b0974991749f35f1"
+      url "https://github.com/weka/homebrew-wekakube/releases/download/v1.0.1/wekakube_1.0.1_darwin_amd64.tar.gz"
+      sha256 "aa69d77f4f41a33b54c77b86887aa6efaec3e88fb5ade9ee4f4869ba9ea70d90"
     end
   end
 
