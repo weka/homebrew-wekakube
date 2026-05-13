@@ -7,11 +7,11 @@ class Wekakube < Formula
   on_macos do
     on_arm do
       url "https://weka.github.io/wekakube/releases/wekakube_1.0.0_darwin_arm64.tar.gz"
-      sha256 "cd6e5cfdc6b8c8c731fe2744970bdaf8e4737310913243ede9488c4abb967159"
+      sha256 "ad912cb914f34af9856b54b1ac8a1adc25290adf0c6bcf4df78ec16523eb7eaf"
     end
     on_intel do
       url "https://weka.github.io/wekakube/releases/wekakube_1.0.0_darwin_amd64.tar.gz"
-      sha256 "4a215a0ce961cfeaf18aaa72127564242cb5c1dd5b70a55790cd1f685914b85d"
+      sha256 "e48a8c4d2b73ac8307045a79dbda053c2c6421d1f63f57ec9e0e0cd051f9ab17"
     end
   end
 
