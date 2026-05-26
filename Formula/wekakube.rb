@@ -1,17 +1,17 @@
 class Wekakube < Formula
   desc "CLI tool for managing Weka Kubernetes resources"
   homepage "https://github.com/weka/wekakube"
-  version "1.2.1"
+  version "1.2.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://weka.github.io/wekakube/releases/wekakube_1.2.1_darwin_arm64.tar.gz"
-      sha256 "fc40f5eab118e4a77ef38cb67d550294f775ac308a743c002840b1f59c943c42"
+      url "https://weka.github.io/wekakube/releases/wekakube_1.2.2_darwin_arm64.tar.gz"
+      sha256 "84728ca1849fe0462fe03e58dd614464189eca57c8ab96ab03b3298abdad6dbb"
     end
     on_intel do
-      url "https://weka.github.io/wekakube/releases/wekakube_1.2.1_darwin_amd64.tar.gz"
-      sha256 "51816b515fcefc4f55749cfcb319a6192fbadd4439fdbc174c074b50f93c8d13"
+      url "https://weka.github.io/wekakube/releases/wekakube_1.2.2_darwin_amd64.tar.gz"
+      sha256 "4b0cee5d9e31dc4d1880fa0dd6b3d9efb5da0c4d0e63a63b70602d42fc196a42"
     end
   end
 
